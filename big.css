@@ -1,0 +1,119 @@
+@media only screen and (min-width: 1069px) {
+  .smallIMG {
+    display: none;
+  }
+  .mediumIMG {
+    display: none;
+  }
+  #content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 736px);
+    grid-auto-rows: 580px;
+    grid-template-areas:
+      "iphone iphone"
+      "ip14 ip14"
+      "apWU apWU"
+      "airP apWS8"
+      "apWSE ap"
+      "mBA aT"
+      "footer footer";
+  }
+  #iphone {
+    padding-top: 55px;
+    color: white;
+    grid-area: iphone;
+    background-image: url("images/big/hero_iphone14pro__e5xbgo5ffhg2_largetall.jpg");
+  }
+  #ip14 {
+    grid-area: ip14;
+    background-image: url("images/big/hero_iphone14_preorder__c4g2wjzuugqe_largetall.jpg");
+  }
+  #apWU {
+    grid-area: apWU;
+    background-image: url("images/big/hero_apple_watch_ultra__dtz0f3e8oscy_largetall.jpg");
+  }
+  #airP {
+    color: white;
+    background: black;
+    grid-area: airP;
+    margin-left: 10px;
+    background-position: center;
+    background-image: url("images/big/promo_airpods_pro_avail__gaxggskofx6y_large.jpg");
+  }
+  #apWS8 {
+    color: white;
+    background: black;
+    grid-area: apWS8;
+    margin-right: 10px;
+    background-position: center;
+    background-image: url("images/big/promo_apple_watch_series_8__ch7rexplmihe_large.jpg");
+  }
+  #apWSE {
+    grid-area: apWSE;
+    background-image: url("images/big/promo_apple_watch_se__f9702l6odgi2_large.jpg");
+  }
+  #ap {
+    grid-area: ap;
+    background-image: url("images/big/tile_airpods__fuv6vgn42y2q_large.jpg");
+  }
+  #mBA {
+    grid-area: mBA;
+    background-image: url("images/big/promo_macbookair__fywl7i82fueu_large.png");
+  }
+  #aT {
+    grid-area: aT;
+    background-image: url("images/big/promo_airtag__e6b73a64nno2_large.jpg");
+  }
+  footer {
+    grid-area: footer;
+    background: #f5f5f7;
+  }
+  h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 1.10722;
+    letter-spacing: 0.004em;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0em;
+  }
+  h5 {
+    font-size: 21px;
+    line-height: 1.2381;
+    letter-spacing: 0.016em;
+  }
+  h6 {
+    font-size: 10px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 13px;
+  }
+  a {
+    font-size: 21px;
+    line-height: 1.381;
+    letter-spacing: 0.011em;
+  }
+  .big a {
+    font-size: 21px;
+    line-height: 1.381;
+    letter-spacing: 0.011em;
+    margin-top: 0.65em;
+  }
+  .menu {
+    display: none;
+  }
+  .smallNav {
+    margin: 0 auto;
+    max-width: 980px;
+    max-height: 48px;
+    padding: 0 22px;
+  }
+}

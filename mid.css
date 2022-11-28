@@ -1,0 +1,120 @@
+@media only screen and (min-width: 736px) and (max-width: 1069px) {
+  .smallIMG {
+    display: none;
+  }
+  .bigIMG {
+    display: none;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 694px);
+    grid-auto-rows: 490px;
+    grid-template-areas:
+      "iphone iphone"
+      "ip14 ip14"
+      "apWU apWU"
+      "airP apWS8"
+      "apWSE ap"
+      "mBA aT"
+      "footer footer";
+  }
+  #iphone {
+    padding-top: 55px;
+    color: white;
+    grid-area: iphone;
+    background-image: url("images/medium/hero_iphone14pro__e5xbgo5ffhg2_mediumtall.jpg");
+  }
+  #ip14 {
+    grid-area: ip14;
+    background-image: url("images/medium/hero_iphone14_preorder__c4g2wjzuugqe_medium.jpg");
+  }
+  #apWU {
+    grid-area: apWU;
+    background-image: url("images/medium/hero_apple_watch_ultra__dtz0f3e8oscy_mediumtall.jpg");
+  }
+  #airP {
+    color: white;
+    background: black;
+    grid-area: airP;
+    margin-left: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/medium/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg");
+  }
+  #apWS8 {
+    color: white;
+    background: black;
+    grid-area: apWS8;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/medium/promo_apple_watch_series_8__ch7rexplmihe_medium.jpg");
+  }
+  #apWSE {
+    grid-area: apWSE;
+    background-image: url("images/medium/promo_apple_watch_se__f9702l6odgi2_medium.jpg");
+  }
+  #ap {
+    grid-area: ap;
+    background-image: url("images/medium/tile_airpods__fuv6vgn42y2q_medium.jpg");
+  }
+  #mBA {
+    grid-area: mBA;
+    background-image: url("images/medium/promo_macbookair__fywl7i82fueu_medium.png");
+  }
+  #aT {
+    grid-area: aT;
+    background-image: url("images/medium/promo_airtag__e6b73a64nno2_medium.jpg");
+  }
+  footer {
+    grid-area: footer;
+    background: #f5f5f7;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 1.08349;
+    letter-spacing: -0.002em;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: 0.009em;
+  }
+  h4 {
+    font-size: 32px;
+    line-height: 1.125;
+    letter-spacing: 0.002em;
+  }
+  h5 {
+    font-size: 19px;
+    line-height: 1.21053;
+    letter-spacing: 0.012em;
+  }
+  h6 {
+    font-size: 10px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 13px;
+  }
+  a {
+    font-size: 17px;
+    line-height: 1.23536;
+    letter-spacing: -0.022em;
+  }
+  /* #iphone .text {
+    padding-top: 37px;
+    margin-top: 20px;
+  } */
+  .big a {
+    font-size: 19px;
+    line-height: 1.21053;
+    letter-spacing: 0.012em;
+    margin-top: 0.74em;
+  }
+  .menu {
+    display: none;
+  }
+}
