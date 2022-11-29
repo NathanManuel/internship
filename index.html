@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="small.css" />
     <link rel="stylesheet" href="mid.css" />
     <link rel="stylesheet" href="big.css" />
+    <link rel="stylesheet" href="footer.css" />
     <link href="https://css.gg/search.css" rel="stylesheet" />
     <link href="https://css.gg/menu.css" rel="stylesheet" />
   </head>
   <body>
     <div id="content">
-      <nav>
+      <nav class="headerNav">
         <div class="smallNav">
           <ul class="navUl">
             <li class="d-sm-block menu">
@@ -91,35 +92,52 @@
           </h2>
           <h3>E timpul pentru aventura</h3>
           <a href="https://www.apple.com/ro/apple-watch-ultra/"
-            >Afla mai multe ></a
-          >
+            >Afla mai multe
+          </a>
         </div>
       </div>
       <div id="airP" class="img">
         <div class="text dark">
           <h4>AirPods Pro</h4>
           <h5>Sunetul inovatiei.</h5>
-          <a href="https://www.apple.com/ro/airpods-pro/">Afla mai multe ></a>
+          <a href="https://www.apple.com/ro/airpods-pro/">Afla mai multe </a>
         </div>
       </div>
       <div id="apWS8" class="img">
         <div class="dark text">
-          <h4>WATCH</h4>
-          <p>SERIES 8</p>
+          <h4>
+            <img
+              src="/images/big/promo_logo_apple_watch_series_8__ee6riplsucuq_large.png"
+              alt=""
+            />
+          </h4>
           <h5>Un progres sanatos.</h5>
           <a href="https://www.apple.com/ro/apple-watch-series-8/"
-            >Afla mai multe ></a
-          >
+            >Afla mai multe
+          </a>
         </div>
       </div>
       <div id="apWSE" class="img">
         <div class="text">
-          <h4>WATCH</h4>
-          <p>SE</p>
+          <h4>
+            <img
+              src="/images/se/promo_logo_apple_watch_se__b85vr9ri02gi_large.png"
+              alt=""
+              class="bigIMG"
+            />
+            <img
+              src="/images/se/promo_logo_apple_watch_se__b85vr9ri02gi_medium.png"
+              alt=""
+              class="mediumIMG"
+            />
+            <img
+              src="/images/se/promo_logo_apple_watch_se__b85vr9ri02gi_small.png"
+              alt=""
+              class="smallIMG"
+            />
+          </h4>
           <h5>Super accesibil de iubit.</h5>
-          <a href="https://www.apple.com/ro/apple-watch-se/"
-            >Afla mai multe ></a
-          >
+          <a href="https://www.apple.com/ro/apple-watch-se/">Afla mai multe </a>
         </div>
       </div>
       <div id="ap" class="img">
@@ -127,47 +145,134 @@
           <h4>AirPods</h4>
           <h5>Complet noi, cu audio spatial</h5>
           <a href="https://www.apple.com/ro/airpods-3rd-generation/"
-            >Afla mai multe ></a
-          >
+            >Afla mai multe
+          </a>
         </div>
       </div>
       <div id="mBA" class="img">
         <div class="text">
           <h4>MacBook Air</h4>
-          <h5>Cu super puterea</h5>
-          <a href="https://www.apple.com/ro/macbook-air-m2">Afla mai multe ></a>
+          <h5>
+            <img
+              src="images/promo/logo_promo_macbookair__hy9ktdqqtv2a_small.png"
+              alt=""
+              class="smallIMG"
+            />
+            <img
+              src="images/promo/logo_promo_macbookair__hy9ktdqqtv2a_medium.png"
+              alt=""
+              class="mediumIMG"
+            />
+            <img
+              src="images/promo/logo_promo_macbookair__hy9ktdqqtv2a_large.png"
+              alt=""
+              class="bigIMG"
+            />
+          </h5>
+          <a href="https://www.apple.com/ro/macbook-air-m2">Afla mai multe </a>
         </div>
       </div>
       <div id="aT" class="img">
         <div class="text">
           <h4>AirTag</h4>
           <h5>N-ai nimic de pierdut.</h5>
-          <a href="https://www.apple.com/ro/AirTag/">Afla mai multe ></a>
+          <a href="https://www.apple.com/ro/AirTag/">Afla mai multe </a>
         </div>
       </div>
       <footer>
-        <ul class="footerUl">
-          <li>
-            <p class="footerT">
-              Curelele nu sunt disponibile în totalitate în toate regiunile.
-            </p>
-          </li>
-          <li>
-            <p class="footerT">Exploreaza</p>
-          </li>
-          <li>
-            <p class="footerT">Servicii</p>
-          </li>
-          <li>
-            <p class="footerT">Count</p>
-          </li>
-          <li>
-            <p class="footerT">Valor Apple</p>
-          </li>
-          <li>
-            <p class="footerT">Despre Apple</p>
-          </li>
-        </ul>
+        <p class="footerT curele-text">
+          Curelele nu sunt disponibile în totalitate în toate regiunile.
+        </p>
+        <div class="tabs">
+          <div class="tab">
+            <input type="checkbox" id="chck1" />
+            <label class="tab-label" for="chck1">Exploreaza</label>
+            <div class="tab-content">
+              <a href="">Mac</a>
+            </div>
+            <div class="tab-content">
+              <a href="">iPad</a>
+            </div>
+            <div class="tab-content">
+              <a href="">iPhone</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Watch</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Music</a>
+            </div>
+            <div class="tab-content">
+              <a href="">AirPods</a>
+            </div>
+            <div class="tab-content">
+              <a href="">AirTag</a>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="checkbox" id="chck2" />
+            <label class="tab-label" for="chck2">Servicii</label>
+            <div class="tab-content">
+              <a href="">Apple Music</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Apple Arcade</a>
+            </div>
+            <div class="tab-content">
+              <a href="">iCloud</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Apple Pay</a>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="checkbox" id="chck3" />
+            <label class="tab-label" for="chck3">Cont</label>
+            <div class="tab-content">
+              <a href="">Administreaza-ti Apple ID-ul Music</a>
+            </div>
+            <div class="tab-content">
+              <a href="">iCloud.com</a>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="checkbox" id="chck4" />
+            <label class="tab-label" for="chck4">Valori Apple</label>
+            <div class="tab-content">
+              <a href="">Confidentialitate</a>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="checkbox" id="chck5" />
+            <label class="tab-label" for="chck5">Despre Apple</label>
+            <div class="tab-content">
+              <a href="">Newsroom</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Apple Leadership</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Investitori</a>
+            </div>
+            <div class="tab-content">
+              <a href="">Etica si Conformitate</a>
+            </div>
+          </div>
+        </div>
+        <div id="g-distribuitor">
+          <p class="curele-text">
+            <a href="">Gaseste distributor</a> in apropiere.
+          </p>
+          <p class="curele-text">Romania</p>
+          <p class="curele-text">
+            Copyright © 2022 Apple Inc. Toate drepturile rezervate.
+          </p>
+          <div class="cookie">
+            <a href="">Cum folosim cookie-urile</a>
+            <a href="">Termeni de utilizare</a>
+            <a href="">Harta site</a>
+          </div>
+        </div>
       </footer>
     </div>
   </body>

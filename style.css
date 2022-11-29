@@ -91,7 +91,6 @@ h6 {
 }
 
 p {
-  color: rgb(157, 0, 0);
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 600;
@@ -109,12 +108,12 @@ nav {
   backdrop-filter: saturate(180%) blur(20px);
   z-index: 10;
 }
-nav a {
+.navUl a {
   color: white;
   font-size: 11px;
   margin-bottom: 8px;
 }
-ul {
+.navUl {
   margin: 0;
   align-items: center;
   text-align: center;
@@ -125,21 +124,16 @@ ul {
   display: flex;
 }
 .navUl li {
-  /* display: inline-block; */
   align-items: space-between;
 }
 .smallNav {
   margin-right: 30px;
   margin-left: 0px;
 }
-.footerT {
-  border-bottom: 1px solid;
-  padding: 17px 0 11px;
-  font-size: 12px;
-  color: rgb(112, 112, 112);
-}
-
-.footerUl li {
-  list-style-type: none;
-  display: table-row;
+.text a::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
 }

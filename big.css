@@ -8,8 +8,8 @@
   #content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 736px);
-    grid-auto-rows: 580px;
+    grid-template-rows: repeat(3, 736px) repeat(3, 580px);
+    grid-auto-rows: 397px;
     grid-template-areas:
       "iphone iphone"
       "ip14 ip14"

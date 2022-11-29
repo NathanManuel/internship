@@ -24,7 +24,7 @@
   nav li {
     display: none;
   }
-  nav ul::after {
+  nav .navUl::after {
     content: "";
   }
   .d-sm-block {
