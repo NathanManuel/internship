@@ -137,3 +137,9 @@ nav {
   text-align: center;
   transition: all 0.35s;
 }
+.current-text a:hover {
+  text-decoration: underline;
+}
+.cookie a:hover {
+  text-decoration: underline;
+}
